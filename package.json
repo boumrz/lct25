@@ -12,17 +12,16 @@
     "@mantine/core": "^7.3.2",
     "@mantine/hooks": "^7.3.2",
     "@mantine/notifications": "^7.3.2",
-    "@tabler/icons-react": "^2.47.0",
-    "next": "14.0.4",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "15.5.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4",
+    "eslint-config-next": "15.5.3",
     "next-rspack": "^15.5.3",
     "typescript": "^5"
   }
