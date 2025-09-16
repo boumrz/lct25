@@ -1,6 +1,6 @@
 # LCT25 - React + Next.js + TypeScript + Mantine UI + Rspack
 
-Базовый проект на React с Next.js, TypeScript, дизайн-системой Mantine UI и быстрым сборщиком Rspack.
+Базовый проект на React с Next.js, TypeScript, дизайн-системой Mantine UI и быстрым сборщиком Rspack через next-rspack.
 
 ## Технологии
 
@@ -9,7 +9,7 @@
 - **TypeScript** - типизированный JavaScript
 - **Mantine UI** - современная дизайн-система для React
 - **CSS Modules** - модульные стили
-- **Rspack** - быстрый Rust-based сборщик
+- **Rspack** - быстрый Rust-based сборщик через next-rspack
 
 ## Структура проекта
 
@@ -31,8 +31,8 @@ src/
 - ✅ TypeScript конфигурация
 - ✅ Адаптивный дизайн
 - ✅ Современная структура Next.js App Router
-- ✅ Rspack для быстрой сборки
-- ✅ Turbo режим для ускорения разработки
+- ✅ Rspack для быстрой сборки через next-rspack
+- ✅ Оптимизированная интеграция с Next.js
 
 ## Установка и запуск
 
@@ -52,16 +52,18 @@ npm start
 
 ## Команды
 
-- `npm run dev` - запуск в режиме разработки с Rspack (Turbo)
-- `npm run build` - сборка проекта с Rspack (Turbo)
+- `npm run dev` - запуск в режиме разработки
+- `npm run build` - сборка проекта
 - `npm run start` - запуск продакшен версии
 - `npm run lint` - проверка кода линтером
 
 ## Rspack конфигурация
 
-Проект настроен для использования Rspack через Next.js Turbo режим:
+Проект настроен для использования Rspack через официальный пакет `next-rspack`:
 
 - Быстрая сборка благодаря Rust-based архитектуре
 - Hot Module Replacement (HMR) для быстрой разработки
 - Оптимизированная обработка TypeScript и CSS модулей
 - Автоматическое разделение кода (code splitting)
+- Полная совместимость с Next.js App Router
+- Простая интеграция через `withRspack()` wrapper

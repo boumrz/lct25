@@ -13,6 +13,9 @@
 /.next/
 /out/
 
+# next-rspack
+.next/trace
+
 # production
 /build
 
