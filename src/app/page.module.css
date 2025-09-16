@@ -1,0 +1,58 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.title {
+  background: linear-gradient(45deg, #228be6, #40c057);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.description {
+  text-align: center;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.buttonSection {
+  margin: 2rem 0;
+}
+
+.customButton {
+  background: linear-gradient(45deg, #228be6, #40c057);
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(34, 139, 230, 0.3);
+}
+
+.customButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(34, 139, 230, 0.4);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
